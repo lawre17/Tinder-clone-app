@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react"
 import TinderCard from "react-tinder-card"
 import '../Css/TinderCards.css'
-import { collection,onSnapshot} from 'firebase/firestore';
-import database from "../firebase"
 import Header from "./Header";
 
 function TinderCards() {
