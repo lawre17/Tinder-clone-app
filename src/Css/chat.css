@@ -1,0 +1,38 @@
+.chat-container{
+    max-height: 70px;
+    margin: 30px auto;
+    width: 800px;
+    height: 70px;
+    max-width: 85vw;
+}
+
+.chat{
+    display: flex;
+    border-bottom: 1px solid #F9F9F9;
+}
+
+.chat-sample{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 2px 5px;
+    color: #0f0e10;
+    position: relative;
+}
+
+.chat-message{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: #AEADAF;
+    font-size: 0.7rem;
+    text-decoration: none;
+}
+
+.chat-stamp{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #DBD9DB;
+    font-size: 0.7rem;
+}

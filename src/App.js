@@ -1,8 +1,9 @@
 import './Css/App.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Components/Home";
-import Chat from "./Chat";
 import Profile from "./Components/Profile";
+import Chats from './Components/Chats';
+import ChatScreen from './Components/ChatScreen';
 function App() {
   return (
     <div>
@@ -10,8 +11,9 @@ function App() {
       <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/chat" element={<Chat />} />
+        <Route path="/chats" element={<Chats />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/chats/:person" element={<ChatScreen />} />
       </Routes>
       </Router>
       </div>

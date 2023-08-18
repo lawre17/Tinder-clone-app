@@ -1,0 +1,5 @@
+.chats-container{
+    height: auto;
+    max-height: 93.65vh;
+    overflow-y: scroll;
+}

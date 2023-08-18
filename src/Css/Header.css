@@ -1,0 +1,20 @@
+.header-container{
+    margin: 0 auto;
+    width: 800px;
+    max-width: 85vw;
+    background-color: white;
+    max-height: 10vh;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #F9F9F9;
+}
+.header-logo{
+    height: 40px;
+}
+
+.header-icons{
+    padding: 20px;
+}

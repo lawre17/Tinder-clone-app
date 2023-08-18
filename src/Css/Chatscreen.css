@@ -1,0 +1,83 @@
+.chatsScreen-Container{
+    margin: 10px auto;
+    width: 800px;
+    max-width: 85vw;
+}
+
+.match-info{
+    margin: 10px auto;
+    text-align: center;
+    color: lightgrey;
+    font-size: 0.5rem;
+}
+
+.messages{
+    position: relative;
+}
+
+.chats-from{
+    padding: 10px;
+    display: flex;
+}
+
+.ChatsUser{
+    padding: 15px;
+    background-color: lightgray;
+    text-align: left;
+    margin-left: 10px;
+    max-width: 50vw;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: small;
+}
+
+.Chats-to{
+    padding: 15px;
+    background-color:#29B0CD ;
+    text-align: left ;
+    max-width: 50vw;
+    border-radius: 20px;
+    color: white;
+    font-weight: 400;
+    margin-top: 5px;
+    font-size: small;
+    margin-left: auto;
+    width: 200px;
+    position: relative;
+}
+
+.ticks{
+
+    color: blue;
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+
+}
+
+.input{
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+    width: 800px;
+    max-width: 85vw;
+}
+
+.chat-form{
+    display: flex;
+    /* justify-content: space-between; */
+    /* height: 50px; */
+    border-top: 1px solid lightgray;
+}
+
+.chat-input{
+    flex: 1;
+    border: none;
+    padding: 15px;
+}
+
+.btn{
+    border: none;
+    background-color: transparent;
+    color: #db6c87;
+}

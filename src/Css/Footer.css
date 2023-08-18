@@ -1,0 +1,44 @@
+.footer-container{
+    position: fixed;
+    bottom: 2vh;
+    margin: 15px 50px 0; 
+}
+
+.footer-items{
+        display: flex;
+        justify-content: space-evenly;
+        width: 800px;
+        max-width: 85vw;
+        margin: auto;
+}
+
+.footer-items .MuiIconButton-root{
+
+    background-color: white;
+    box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3) !important;
+}
+
+.footer-replay{
+    padding: 1vw !important;
+    color: #f5b748;
+}
+
+.footer-close{
+    padding: 1vw !important;
+    color: #ec5e6f;
+}
+
+.footer-star{
+    padding: 1vw !important;
+    color: #62b4f9;
+}
+
+.footer-fav{
+    padding: 1vw !important;
+    color: #76e2b3;
+}
+
+.footer-flash{
+    padding: 1vw !important;
+    color: #915dd1;
+}
